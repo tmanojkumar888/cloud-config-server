@@ -1,0 +1,8 @@
+edureka:
+  client:
+    register-with-eureka:true
+    fetch-registry:true
+    service-url:
+      default-zone:http://localhost:8761/edureka/
+      instance:
+        hostname:localhost
